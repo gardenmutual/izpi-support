@@ -8,6 +8,8 @@ IZPI helps a household make plans, complete chores, practice remembering steps, 
 
 For general bugs or feature feedback, use [IZPI support issues](https://github.com/gardenmutual/izpi-support/issues). Do not put private family information in a public GitHub issue. For an account or data-privacy request, use the in-app deletion control or contact the developer through the App Store listing.
 
+After you create an account, open the confirmation email and follow its link. If that link brings you to this page, return to IZPI and sign in with the email and password you chose. If sign-in still says your email is unconfirmed, check that you used the most recent confirmation message and contact support without posting your password or private household details.
+
 ## Information IZPI handles
 
 - Account email, a password processed by our authentication provider, and account/session identifiers are used to sign you in. IZPI does not receive or store your plaintext password.
