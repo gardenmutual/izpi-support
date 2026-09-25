@@ -1,29 +1,32 @@
 # IZPI Support and Privacy
 
+Last updated: September 25, 2026
+
+IZPI helps a household make plans, complete chores, practice remembering steps, and celebrate progress. Each household creates its own private space. IZPI does not preload or publish anyone's family roster.
+
 ## Support
 
-IZPI is an on-device household routine tool that turns chores, routines, memory practice, and care logs into encouraging family quests.
+For general bugs or feature feedback, use [IZPI support issues](https://github.com/gardenmutual/izpi-support/issues). Do not put private family information in a public GitHub issue. For an account or data-privacy request, use the in-app deletion control or contact the developer through the App Store listing.
 
-For help, questions, or feedback, open an issue in this support repository: https://github.com/gardenmutual/izpi-support/issues
+## Information IZPI handles
 
-## Privacy
+- Account email, a password processed by our authentication provider, and account/session identifiers are used to sign you in. IZPI does not receive or store your plaintext password.
+- A household creator may enter a household name, member names or nicknames, adult/child profile labels, chores, routines, and progress. Invited members of that household can view its shared board.
+- Invite codes are one-use and expire after 24 hours. The server stores a hash of each invite code, not its plaintext value.
+- Basic service logs and timestamps may be processed to operate and secure the service.
 
-IZPI does not require account registration. In the current version, household routines, chore progress, and care-log entries are stored locally on the device. IZPI does not transmit or store this content on an IZPI server.
+IZPI uses Supabase to provide account authentication and a database hosted in the United States. Access to household records is restricted by signed-in membership checks enforced in the database. IZPI does not sell personal information, show ads, or use third-party advertising analytics.
 
-IZPI does not sell personal information and does not use advertising or third-party analytics.
+This version does not request location permission or provide location sharing. It does not send remote push notifications. Data is transferred over encrypted network connections; a signed-in device may retain an authentication session until sign-out.
 
-This version does not request location access or notification permission, and it does not provide background location sharing or remote push delivery.
+## Children and families
 
-If a future version changes how IZPI handles data or permissions, this policy and the App Store privacy disclosure will be updated before that version is released.
+Adults should create and manage household membership and supervise children's use. A child's profile can be a nickname. Do not put birth dates, medical details, or precise location into a profile or mission. IZPI is an organizational game, not a medical or emergency service.
 
-## Children and Families
+## Deletion
 
-IZPI is designed for family participation. Parents or guardians should supervise children’s use of the app and decide what information is appropriate to enter.
+In Settings, a signed-in user can choose **Delete my IZPI account**. This permanently removes their sign-in account and household membership. If they own a household, deletion also removes that household and its shared profiles and missions for all members. If they are an invited member, shared household content may remain for other members until the household owner removes it. A user can also sign out without deleting their account.
 
-## Care Logs
+## Policy changes
 
-Food, bottle, and meal logs are organizational tools only. IZPI does not provide medical advice and is not a healthcare record.
-
-## Delete Your Data
-
-Because current household data is stored on the device, removing the IZPI app from the device removes its locally stored app data.
+We will update this page and the App Store privacy disclosure before releasing a version that changes what data IZPI collects or shares.
